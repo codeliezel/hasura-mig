@@ -1,0 +1,6 @@
+version: 2
+endpoint: https://regular-starling-21.hasura.app
+metadata_directory: metadata
+actions:
+  kind: synchronous
+  handler_webhook_baseurl: http://localhost:3000
